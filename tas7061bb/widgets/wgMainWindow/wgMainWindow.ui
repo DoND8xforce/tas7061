@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1180</width>
-    <height>944</height>
+    <width>1280</width>
+    <height>946</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -101,7 +101,7 @@ QLabel#lblImage{
      <widget class="QWidget" name="wgContent" native="true">
       <property name="minimumSize">
        <size>
-        <width>800</width>
+        <width>900</width>
         <height>0</height>
        </size>
       </property>
@@ -331,7 +331,7 @@ QPushButton:menu-indicator {
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1180</width>
+     <width>1280</width>
      <height>23</height>
     </rect>
    </property>

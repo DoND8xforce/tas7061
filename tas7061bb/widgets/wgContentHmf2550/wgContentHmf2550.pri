@@ -4,10 +4,22 @@ VPATH += $$PWD
 
 
 SOURCES +=     \
-    $$PWD/wgContentHmf2550.cpp
+    $$PWD/wgArbitrary.cpp \
+    $$PWD/wgContentHmf2550.cpp \
+    $$PWD/wgPulse.cpp \
+    $$PWD/wgSquare.cpp \
+    $$PWD/wgTriangle.cpp
 
 HEADERS +=     \
-    $$PWD/wgContentHmf2550.h
+    $$PWD/wgArbitrary.h \
+    $$PWD/wgContentHmf2550.h \
+    $$PWD/wgPulse.h \
+    $$PWD/wgSquare.h \
+    $$PWD/wgTriangle.h
 
 FORMS += \
-    $$PWD/wgContentHmf2550.ui
+    $$PWD/wgArbitrary.ui \
+    $$PWD/wgContentHmf2550.ui \
+    $$PWD/wgPulse.ui \
+    $$PWD/wgSquare.ui \
+    $$PWD/wgTriangle.ui
