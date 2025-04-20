@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>btnCloseExpan.png</file>
+        <file>btnOpenExpan.png</file>
+        <file>xforce-f.webp</file>
+        <file>circleError.png</file>
+        <file>circleSuccess.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,10 @@
+INCLUDEPATH += $$PWD
+DEPENDPATH += $$PWD
+VPATH += $$PWD
+
+
+SOURCES +=    
+
+HEADERS +=    
+
+FORMS +=
