@@ -3,8 +3,11 @@ DEPENDPATH += $$PWD
 VPATH += $$PWD
 
 
-SOURCES +=    
+SOURCES +=     \
+    $$PWD/wgContentFpl1003.cpp
 
-HEADERS +=    
+HEADERS +=     \
+    $$PWD/wgContentFpl1003.h
 
-FORMS +=
+FORMS += \
+    $$PWD/wgContentFpl1003.ui

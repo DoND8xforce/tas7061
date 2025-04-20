@@ -2,8 +2,8 @@
 #define WGMAINWINDOW_H
 
 #include <QMainWindow>
+#include <QScrollArea>
 
-#include "wgContentRtm3004.h"
 
 namespace Ui {
 class wgMainWindow;
@@ -19,10 +19,18 @@ public:
 
     void initialize();
 
+
+private slots:
+    void on_btnRmt3004_clicked();
+
+    void on_btnFpl1003_clicked();
+
+    void on_btnHmf2550_clicked();
+
 private:
     Ui::wgMainWindow *ui;
-
-    wgContentRtm3004 *mWgRtm;
+    QScrollArea* mScrollArea;
+    QMap<QString, QWidget*> mWgContentsMap;
 };
 
 #endif // WGMAINWINDOW_H

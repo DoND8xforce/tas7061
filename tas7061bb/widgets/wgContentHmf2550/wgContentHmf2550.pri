@@ -3,8 +3,11 @@ DEPENDPATH += $$PWD
 VPATH += $$PWD
 
 
-SOURCES +=    
+SOURCES +=     \
+    $$PWD/wgContentHmf2550.cpp
 
-HEADERS +=    
+HEADERS +=     \
+    $$PWD/wgContentHmf2550.h
 
-FORMS +=
+FORMS += \
+    $$PWD/wgContentHmf2550.ui
