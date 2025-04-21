@@ -24,7 +24,7 @@ void wgMainWindow::initialize()
 {
     QVBoxLayout *layout = new QVBoxLayout();
     layout->setSpacing(0);
-    layout->setContentsMargins(0, 0, 0, 0);
+    layout->setContentsMargins(12, 0, 0, 0);
     ui->wgContent->setLayout(layout);
 
     mScrollArea = new QScrollArea();
