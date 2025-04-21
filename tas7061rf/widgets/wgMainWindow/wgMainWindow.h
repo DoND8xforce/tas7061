@@ -21,11 +21,10 @@ public:
 
 
 private slots:
-    void on_btnRmt3004_clicked();
-
-    void on_btnFpl1003_clicked();
-
-    void on_btnHmf2550_clicked();
+    void on_btnSma100B_clicked();
+    void on_btnFsv3044_clicked();
+    void on_btnNrx_clicked();
+    void on_btnOsp230_clicked();
 
 private:
     Ui::wgMainWindow *ui;

@@ -24,7 +24,7 @@ void wgMainWindow::initialize()
 {
     QVBoxLayout *layout = new QVBoxLayout();
     layout->setSpacing(0);
-    layout->setContentsMargins(0, 0, 0, 0);
+    layout->setContentsMargins(12, 0, 0, 0);
     ui->wgContent->setLayout(layout);
 
     mScrollArea = new QScrollArea();
@@ -34,19 +34,28 @@ void wgMainWindow::initialize()
     mScrollArea->setWidget(new wgContentRtm3004(mScrollArea));
 
     layout->addWidget(mScrollArea);
+
+    QPixmap pixmap(":/icon/RTM3004.png");
+    ui->lblImage->setPixmap(pixmap);
 }
 
 void wgMainWindow::on_btnRmt3004_clicked()
 {
     mScrollArea->setWidget(new wgContentRtm3004(mScrollArea));
+    QPixmap pixmap(":/icon/RTM3004.png");
+    ui->lblImage->setPixmap(pixmap);
 }
 
 void wgMainWindow::on_btnFpl1003_clicked()
 {
     mScrollArea->setWidget(new wgContentFpl1003(mScrollArea));
+    QPixmap pixmap(":/icon/FPL1003.png");
+    ui->lblImage->setPixmap(pixmap);
 }
 
 void wgMainWindow::on_btnHmf2550_clicked()
 {
     mScrollArea->setWidget(new wgContentHmf2550(mScrollArea));
+    QPixmap pixmap(":/icon/HMF2550.png");
+    ui->lblImage->setPixmap(pixmap);
 }

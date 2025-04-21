@@ -5,5 +5,13 @@
         <file>xforce-f.webp</file>
         <file>circleError.png</file>
         <file>circleSuccess.png</file>
+        <file>FPL1003.png</file>
+        <file>FSV3004.png</file>
+        <file>HMF2550.png</file>
+        <file>NRX.png</file>
+        <file>OSP230.png</file>
+        <file>RTM3004.png</file>
+        <file>SMA100B.png</file>
+        <file>SMB100B.png</file>
     </qresource>
 </RCC>

@@ -34,19 +34,28 @@ void wgMainWindow::initialize()
     mScrollArea->setWidget(new wgContentSmb100B(mScrollArea));
 
     layout->addWidget(mScrollArea);
+
+    QPixmap pixmap(":/icon/SMB100B.png");
+    ui->lblImage->setPixmap(pixmap);
 }
 
 void wgMainWindow::on_btnSmb100b_clicked()
 {
     mScrollArea->setWidget(new wgContentSmb100B(mScrollArea));
+    QPixmap pixmap(":/icon/SMB100B.png");
+    ui->lblImage->setPixmap(pixmap);
 }
 
 void wgMainWindow::on_btnFpl1003_clicked()
 {
     mScrollArea->setWidget(new wgContentFpl1003(mScrollArea));
+    QPixmap pixmap(":/icon/FPL1003.png");
+    ui->lblImage->setPixmap(pixmap);
 }
 
 void wgMainWindow::on_btnRmt3004_clicked()
 {
     mScrollArea->setWidget(new wgContentRtm3004(mScrollArea));
+    QPixmap pixmap(":/icon/RTM3004.png");
+    ui->lblImage->setPixmap(pixmap);
 }

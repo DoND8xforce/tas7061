@@ -19,7 +19,6 @@ private slots:
     void on_btnFreqSpan_clicked();
     void on_btnRefLevel_clicked();
     void on_btnTrigger_clicked();
-
     void on_btnAdv_clicked();
 
 private:

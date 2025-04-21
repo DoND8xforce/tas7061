@@ -2,10 +2,11 @@ INCLUDEPATH += $$PWD
 DEPENDPATH += $$PWD
 VPATH += $$PWD
 
-SUBDIRS += wgContentRtm3004 wgContentFpl1003 wgContentHmf2550 wgMainWindow
-include(wgContentRtm3004/wgContentRtm3004.pri)
-include(wgContentFpl1003/wgContentFpl1003.pri)
-include(wgContentHmf2550/wgContentHmf2550.pri)
+SUBDIRS += wgContentSma100B wgContentFsv3044 wgContentNrx wgContentOsp230 wgMainWindow
+include(wgContentSma100B/wgContentSma100B.pri)
+include(wgContentFsv3044/wgContentFsv3044.pri)
+include(wgContentNrx/wgContentNrx.pri)
+include(wgContentOsp230/wgContentOsp230.pri)
 include(wgMainWindow/wgMainWindow.pri)
 
 SOURCES +=    

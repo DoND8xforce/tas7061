@@ -20,7 +20,7 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">QWidget#widgetPanel, #wgStatConn, #wgContent{
+   <string notr="true">QWidget#widgetPanel, #wgStatConn{
     border: 1px solid rgb(94, 92, 100);
 }
 
@@ -241,8 +241,8 @@ QPushButton:menu-indicator {
       </property>
       <property name="maximumSize">
        <size>
-        <width>648</width>
-        <height>16777215</height>
+        <width>670</width>
+        <height>584</height>
        </size>
       </property>
      </widget>
