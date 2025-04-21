@@ -6,9 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>753</width>
+    <width>606</width>
     <height>274</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>606</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>606</width>
+    <height>16777215</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>Form</string>
@@ -32,7 +44,7 @@
    <item row="0" column="0">
     <layout class="QGridLayout" name="gridLayout_2">
      <property name="horizontalSpacing">
-      <number>390</number>
+      <number>244</number>
      </property>
      <property name="verticalSpacing">
       <number>10</number>

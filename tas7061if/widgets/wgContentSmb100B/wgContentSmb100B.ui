@@ -323,7 +323,7 @@
            </layout>
           </item>
           <item>
-           <widget class="QWidget" name="wgAdv" native="true">
+           <widget class="QWidget" name="wgAdvRfFreq" native="true">
             <property name="minimumSize">
              <size>
               <width>0</width>
@@ -877,7 +877,7 @@
            </layout>
           </item>
           <item>
-           <widget class="QWidget" name="wgAdv_2" native="true">
+           <widget class="QWidget" name="wgAdvPulseMod" native="true">
             <property name="minimumSize">
              <size>
               <width>0</width>
@@ -1348,7 +1348,7 @@
            </layout>
           </item>
           <item>
-           <widget class="QWidget" name="wgAdv_3" native="true">
+           <widget class="QWidget" name="wgAdvRfLevel" native="true">
             <property name="minimumSize">
              <size>
               <width>0</width>

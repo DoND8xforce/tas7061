@@ -6,14 +6,17 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>816</width>
-    <height>625</height>
+    <width>713</width>
+    <height>652</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
   <layout class="QHBoxLayout" name="horizontalLayout_5">
+   <property name="spacing">
+    <number>0</number>
+   </property>
    <item>
     <layout class="QVBoxLayout" name="verticalLayout_4">
      <property name="spacing">
@@ -101,8 +104,14 @@
         <widget class="QWidget" name="wgTrigger" native="true">
          <property name="minimumSize">
           <size>
-           <width>769</width>
+           <width>0</width>
            <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>624</width>
+           <height>16777215</height>
           </size>
          </property>
          <property name="styleSheet">
@@ -266,7 +275,7 @@
               <number>0</number>
              </property>
              <property name="horizontalSpacing">
-              <number>414</number>
+              <number>268</number>
              </property>
              <property name="verticalSpacing">
               <number>10</number>
@@ -471,8 +480,14 @@
       <widget class="QWidget" name="wgScale" native="true">
        <property name="minimumSize">
         <size>
-         <width>769</width>
-         <height>250</height>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>624</width>
+         <height>16777215</height>
         </size>
        </property>
        <property name="styleSheet">
@@ -482,7 +497,7 @@
         <item>
          <layout class="QGridLayout" name="gridLayout_3">
           <property name="horizontalSpacing">
-           <number>404</number>
+           <number>258</number>
           </property>
           <property name="verticalSpacing">
            <number>10</number>
