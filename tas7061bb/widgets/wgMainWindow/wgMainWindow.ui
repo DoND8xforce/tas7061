@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1280</width>
-    <height>946</height>
+    <width>1192</width>
+    <height>839</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -40,17 +40,232 @@ QLabel#lblImage{
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QWidget" name="widgetPanel" native="true">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    font: bold 14pt &quot;Roboto&quot;;
+    background-color: #E6E6E6; 
+    border: 1px solid #32414B;
+	color: #000000;
+    border-radius: 4px;
+    padding: 3px;
+    outline: none;
+    min-width: 80px;
+}
+
+QPushButton:checked {
+    background-color: #49BDF4; 
+    border: 1px solid #32414B;
+    border-radius: 4px;
+	color: #FFFFFF;
+    padding: 3px;
+    outline: none;
+}
+
+QPushButton:pressed {
+    background-color: #14A3E6; 
+    border: 1px solid #19232D;
+}
+
+QPushButton:menu-indicator {
+    subcontrol-origin: padding;
+    subcontrol-position: bottom right;
+    bottom: 4px;
+}</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="btnRmt3004">
+         <property name="minimumSize">
+          <size>
+           <width>88</width>
+           <height>98</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>320</width>
+           <height>98</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto</family>
+           <pointsize>14</pointsize>
+           <italic>false</italic>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>RMT3004</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../../res.qrc">
+           <normaloff>:/icon/circleError.png</normaloff>:/icon/circleError.png</iconset>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnFpl1003">
+         <property name="minimumSize">
+          <size>
+           <width>88</width>
+           <height>98</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>320</width>
+           <height>98</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto</family>
+           <pointsize>14</pointsize>
+           <italic>false</italic>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>FPL1003</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../../res.qrc">
+           <normaloff>:/icon/circleError.png</normaloff>:/icon/circleError.png</iconset>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnHmf2550">
+         <property name="minimumSize">
+          <size>
+           <width>88</width>
+           <height>98</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>320</width>
+           <height>98</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Roboto</family>
+           <pointsize>14</pointsize>
+           <italic>false</italic>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>HMF2550</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../../res.qrc">
+           <normaloff>:/icon/circleError.png</normaloff>:/icon/circleError.png</iconset>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="1" rowspan="3">
+     <widget class="QWidget" name="wgContent" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>750</width>
+        <height>0</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2" rowspan="2">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Orientation::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>131</width>
+        <height>528</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="lblImage">
+      <property name="minimumSize">
+       <size>
+        <width>320</width>
+        <height>401</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>320</width>
+        <height>401</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../../res.qrc">:/icon/xforce-f.webp</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
     <item row="2" column="0">
      <widget class="QWidget" name="wgStatConn" native="true">
       <property name="minimumSize">
        <size>
-        <width>350</width>
+        <width>320</width>
         <height>50</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
-        <width>350</width>
+        <width>320</width>
         <height>50</height>
        </size>
       </property>
@@ -97,232 +312,18 @@ QLabel#lblImage{
       </layout>
      </widget>
     </item>
-    <item row="0" column="1" rowspan="3">
-     <widget class="QWidget" name="wgContent" native="true">
-      <property name="minimumSize">
-       <size>
-        <width>900</width>
-        <height>0</height>
-       </size>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="0">
-     <widget class="QLabel" name="lblImage">
-      <property name="minimumSize">
-       <size>
-        <width>350</width>
-        <height>500</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>350</width>
-        <height>500</height>
-       </size>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="pixmap">
-       <pixmap resource="../../res.qrc">:/icon/xforce-f.webp</pixmap>
-      </property>
-      <property name="scaledContents">
-       <bool>true</bool>
-      </property>
-     </widget>
-    </item>
-    <item row="3" column="0">
+    <item row="3" column="0" colspan="2">
      <spacer name="verticalSpacer">
       <property name="orientation">
        <enum>Qt::Orientation::Vertical</enum>
       </property>
       <property name="sizeHint" stdset="0">
        <size>
-        <width>20</width>
-        <height>4</height>
+        <width>1168</width>
+        <height>90</height>
        </size>
       </property>
      </spacer>
-    </item>
-    <item row="1" column="2">
-     <spacer name="horizontalSpacer">
-      <property name="orientation">
-       <enum>Qt::Orientation::Horizontal</enum>
-      </property>
-      <property name="sizeHint" stdset="0">
-       <size>
-        <width>69</width>
-        <height>20</height>
-       </size>
-      </property>
-     </spacer>
-    </item>
-    <item row="0" column="0">
-     <widget class="QWidget" name="widgetPanel" native="true">
-      <property name="styleSheet">
-       <string notr="true">QPushButton {
-    font: bold 16pt &quot;Roboto&quot;;
-    background-color: #E6E6E6; 
-    border: 1px solid #32414B;
-	color: #000000;
-    border-radius: 4px;
-    padding: 3px;
-    outline: none;
-    min-width: 80px;
-}
-
-QPushButton:checked {
-    background-color: #49BDF4; 
-    border: 1px solid #32414B;
-    border-radius: 4px;
-    padding: 3px;
-    outline: none;
-}
-
-QPushButton:pressed {
-    background-color: #14A3E6; 
-    border: 1px solid #19232D;
-}
-
-QPushButton:menu-indicator {
-    subcontrol-origin: padding;
-    subcontrol-position: bottom right;
-    bottom: 4px;
-}</string>
-      </property>
-      <layout class="QVBoxLayout" name="verticalLayout">
-       <property name="spacing">
-        <number>0</number>
-       </property>
-       <property name="leftMargin">
-        <number>0</number>
-       </property>
-       <property name="topMargin">
-        <number>0</number>
-       </property>
-       <property name="rightMargin">
-        <number>0</number>
-       </property>
-       <property name="bottomMargin">
-        <number>0</number>
-       </property>
-       <item>
-        <widget class="QPushButton" name="btnRmt3004">
-         <property name="minimumSize">
-          <size>
-           <width>88</width>
-           <height>100</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>350</width>
-           <height>100</height>
-          </size>
-         </property>
-         <property name="font">
-          <font>
-           <family>Roboto</family>
-           <pointsize>16</pointsize>
-           <italic>false</italic>
-           <bold>true</bold>
-          </font>
-         </property>
-         <property name="text">
-          <string>RMT3004</string>
-         </property>
-         <property name="icon">
-          <iconset resource="../../res.qrc">
-           <normaloff>:/icon/circleError.png</normaloff>:/icon/circleError.png</iconset>
-         </property>
-         <property name="checkable">
-          <bool>true</bool>
-         </property>
-         <property name="checked">
-          <bool>true</bool>
-         </property>
-         <property name="autoExclusive">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnFpl1003">
-         <property name="minimumSize">
-          <size>
-           <width>88</width>
-           <height>100</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>350</width>
-           <height>100</height>
-          </size>
-         </property>
-         <property name="font">
-          <font>
-           <family>Roboto</family>
-           <pointsize>16</pointsize>
-           <italic>false</italic>
-           <bold>true</bold>
-          </font>
-         </property>
-         <property name="text">
-          <string>FPL1003</string>
-         </property>
-         <property name="icon">
-          <iconset resource="../../res.qrc">
-           <normaloff>:/icon/circleError.png</normaloff>:/icon/circleError.png</iconset>
-         </property>
-         <property name="checkable">
-          <bool>true</bool>
-         </property>
-         <property name="autoExclusive">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="btnHmf2550">
-         <property name="minimumSize">
-          <size>
-           <width>88</width>
-           <height>100</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>350</width>
-           <height>100</height>
-          </size>
-         </property>
-         <property name="font">
-          <font>
-           <family>Roboto</family>
-           <pointsize>16</pointsize>
-           <italic>false</italic>
-           <bold>true</bold>
-          </font>
-         </property>
-         <property name="text">
-          <string>HMF2550</string>
-         </property>
-         <property name="icon">
-          <iconset resource="../../res.qrc">
-           <normaloff>:/icon/circleError.png</normaloff>:/icon/circleError.png</iconset>
-         </property>
-         <property name="checkable">
-          <bool>true</bool>
-         </property>
-         <property name="autoExclusive">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </widget>
     </item>
    </layout>
   </widget>
@@ -331,7 +332,7 @@ QPushButton:menu-indicator {
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1280</width>
+     <width>1192</width>
      <height>23</height>
     </rect>
    </property>
