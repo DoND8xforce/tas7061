@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1192</width>
-    <height>839</height>
+    <height>841</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -91,7 +91,7 @@ QPushButton:menu-indicator {
         <number>0</number>
        </property>
        <item>
-        <widget class="QPushButton" name="btnRmt3004">
+        <widget class="QPushButton" name="btnSmb100b">
          <property name="minimumSize">
           <size>
            <width>88</width>
@@ -113,7 +113,7 @@ QPushButton:menu-indicator {
           </font>
          </property>
          <property name="text">
-          <string>RMT3004</string>
+          <string>SMB100B</string>
          </property>
          <property name="icon">
           <iconset resource="../../res.qrc">
@@ -168,7 +168,7 @@ QPushButton:menu-indicator {
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="btnHmf2550">
+        <widget class="QPushButton" name="btnRmt3004">
          <property name="minimumSize">
           <size>
            <width>88</width>
@@ -190,7 +190,7 @@ QPushButton:menu-indicator {
           </font>
          </property>
          <property name="text">
-          <string>HMF2550</string>
+          <string>RMT3004</string>
          </property>
          <property name="icon">
           <iconset resource="../../res.qrc">
@@ -248,7 +248,7 @@ QPushButton:menu-indicator {
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap resource="../../res.qrc">:/icon/xforce-f.webp</pixmap>
+       <pixmap>:/icon/xforce-f.webp</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
