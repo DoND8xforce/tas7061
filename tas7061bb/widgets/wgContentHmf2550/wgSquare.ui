@@ -19,6 +19,11 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">QComboBox{
+	qproperty-alignment: 'AlignCenter'
+}</string>
+  </property>
   <layout class="QGridLayout" name="gridLayout_3">
    <property name="leftMargin">
     <number>0</number>
@@ -37,8 +42,11 @@
    </property>
    <item row="0" column="0">
     <layout class="QGridLayout" name="gridLayout_2">
+     <property name="leftMargin">
+      <number>14</number>
+     </property>
      <property name="horizontalSpacing">
-      <number>200</number>
+      <number>196</number>
      </property>
      <property name="verticalSpacing">
       <number>10</number>
