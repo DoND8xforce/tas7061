@@ -26,10 +26,7 @@
    <string>Form</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">QComboBox{
-
-	text-align: center
-}</string>
+   <string notr="true"/>
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <property name="leftMargin">
@@ -53,7 +50,7 @@
       <number>14</number>
      </property>
      <property name="horizontalSpacing">
-      <number>242</number>
+      <number>250</number>
      </property>
      <property name="verticalSpacing">
       <number>10</number>
@@ -61,7 +58,7 @@
      <item row="2" column="1">
       <layout class="QHBoxLayout" name="horizontalLayout_12">
        <property name="spacing">
-        <number>16</number>
+        <number>10</number>
        </property>
        <item>
         <widget class="QLineEdit" name="lineEdit_8">
@@ -108,7 +105,7 @@
      <item row="1" column="1">
       <layout class="QHBoxLayout" name="horizontalLayout_13">
        <property name="spacing">
-        <number>16</number>
+        <number>10</number>
        </property>
        <item>
         <widget class="QLineEdit" name="lineEdit_9">
@@ -183,7 +180,7 @@
      <item row="0" column="1">
       <layout class="QHBoxLayout" name="horizontalLayout_14">
        <property name="spacing">
-        <number>16</number>
+        <number>10</number>
        </property>
        <item>
         <widget class="QLineEdit" name="lineEdit_10">
@@ -230,7 +227,7 @@
      <item row="3" column="1">
       <layout class="QHBoxLayout" name="horizontalLayout_15">
        <property name="spacing">
-        <number>16</number>
+        <number>10</number>
        </property>
        <item>
         <widget class="QLineEdit" name="lineEdit_11">
@@ -284,7 +281,7 @@
      <item row="4" column="1">
       <layout class="QHBoxLayout" name="horizontalLayout_4">
        <property name="spacing">
-        <number>16</number>
+        <number>10</number>
        </property>
        <item>
         <widget class="QLineEdit" name="lineEdit_12">

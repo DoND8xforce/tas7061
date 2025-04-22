@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>717</width>
-    <height>952</height>
+    <height>967</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -30,7 +30,7 @@
        <item>
         <layout class="QHBoxLayout" name="horizontalLayout_5">
          <property name="spacing">
-          <number>0</number>
+          <number>6</number>
          </property>
          <item>
           <widget class="QPushButton" name="btnRfFreq">
@@ -136,10 +136,10 @@
           <item>
            <layout class="QGridLayout" name="gridLayout">
             <property name="leftMargin">
-             <number>20</number>
+             <number>26</number>
             </property>
             <property name="horizontalSpacing">
-             <number>270</number>
+             <number>264</number>
             </property>
             <property name="verticalSpacing">
              <number>10</number>
@@ -249,7 +249,7 @@
              <number>0</number>
             </property>
             <property name="leftMargin">
-             <number>20</number>
+             <number>26</number>
             </property>
             <item>
              <widget class="QPushButton" name="btnAdvRfFreq">
@@ -347,7 +347,7 @@
             </property>
             <layout class="QGridLayout" name="gridLayout_2">
              <property name="leftMargin">
-              <number>40</number>
+              <number>46</number>
              </property>
              <property name="topMargin">
               <number>0</number>
@@ -359,7 +359,7 @@
               <number>0</number>
              </property>
              <property name="horizontalSpacing">
-              <number>250</number>
+              <number>244</number>
              </property>
              <property name="verticalSpacing">
               <number>10</number>
@@ -429,8 +429,14 @@
               <widget class="QLineEdit" name="lineEdit">
                <property name="minimumSize">
                 <size>
-                 <width>0</width>
+                 <width>279</width>
                  <height>35</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>279</width>
+                 <height>16777215</height>
                 </size>
                </property>
               </widget>
@@ -441,7 +447,7 @@
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout">
             <property name="leftMargin">
-             <number>20</number>
+             <number>26</number>
             </property>
             <item>
              <widget class="QPushButton" name="pushButton_8">
@@ -487,7 +493,7 @@
        <item>
         <layout class="QHBoxLayout" name="horizontalLayout_8">
          <property name="spacing">
-          <number>0</number>
+          <number>6</number>
          </property>
          <item>
           <widget class="QPushButton" name="btnPulseMod">
@@ -593,10 +599,10 @@
           <item>
            <layout class="QGridLayout" name="gridLayout_3">
             <property name="leftMargin">
-             <number>20</number>
+             <number>26</number>
             </property>
             <property name="horizontalSpacing">
-             <number>262</number>
+             <number>256</number>
             </property>
             <property name="verticalSpacing">
              <number>10</number>
@@ -763,13 +769,13 @@
              <widget class="QComboBox" name="comboBox_5">
               <property name="minimumSize">
                <size>
-                <width>276</width>
+                <width>279</width>
                 <height>35</height>
                </size>
               </property>
               <property name="maximumSize">
                <size>
-                <width>0</width>
+                <width>279</width>
                 <height>16777215</height>
                </size>
               </property>
@@ -803,7 +809,7 @@
              <number>0</number>
             </property>
             <property name="leftMargin">
-             <number>20</number>
+             <number>26</number>
             </property>
             <item>
              <widget class="QPushButton" name="btnAdvPulse">
@@ -901,7 +907,7 @@
             </property>
             <layout class="QGridLayout" name="gridLayout_4">
              <property name="leftMargin">
-              <number>40</number>
+              <number>46</number>
              </property>
              <property name="topMargin">
               <number>0</number>
@@ -913,7 +919,7 @@
               <number>0</number>
              </property>
              <property name="horizontalSpacing">
-              <number>238</number>
+              <number>232</number>
              </property>
              <property name="verticalSpacing">
               <number>10</number>
@@ -1032,7 +1038,7 @@
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_2">
             <property name="leftMargin">
-             <number>20</number>
+             <number>26</number>
             </property>
             <item>
              <widget class="QPushButton" name="pushButton_9">
@@ -1078,7 +1084,7 @@
        <item>
         <layout class="QHBoxLayout" name="horizontalLayout_23">
          <property name="spacing">
-          <number>0</number>
+          <number>6</number>
          </property>
          <item>
           <widget class="QPushButton" name="btnRfLevel">
@@ -1184,10 +1190,10 @@
           <item>
            <layout class="QGridLayout" name="gridLayout_5">
             <property name="leftMargin">
-             <number>20</number>
+             <number>26</number>
             </property>
             <property name="horizontalSpacing">
-             <number>208</number>
+             <number>202</number>
             </property>
             <property name="verticalSpacing">
              <number>10</number>
@@ -1274,7 +1280,7 @@
              <number>0</number>
             </property>
             <property name="leftMargin">
-             <number>20</number>
+             <number>26</number>
             </property>
             <item>
              <widget class="QPushButton" name="btnAdvRfLevel">
@@ -1372,7 +1378,7 @@
             </property>
             <layout class="QGridLayout" name="gridLayout_6">
              <property name="leftMargin">
-              <number>40</number>
+              <number>46</number>
              </property>
              <property name="topMargin">
               <number>0</number>
@@ -1384,7 +1390,7 @@
               <number>0</number>
              </property>
              <property name="horizontalSpacing">
-              <number>208</number>
+              <number>202</number>
              </property>
              <property name="verticalSpacing">
               <number>10</number>
@@ -1499,7 +1505,7 @@
           <item>
            <layout class="QGridLayout" name="gridLayout_7">
             <property name="leftMargin">
-             <number>20</number>
+             <number>26</number>
             </property>
             <property name="horizontalSpacing">
              <number>0</number>

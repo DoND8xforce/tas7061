@@ -44,10 +44,10 @@
    <item row="0" column="0">
     <layout class="QGridLayout" name="gridLayout_2">
      <property name="leftMargin">
-      <number>14</number>
+      <number>20</number>
      </property>
      <property name="horizontalSpacing">
-      <number>268</number>
+      <number>270</number>
      </property>
      <property name="verticalSpacing">
       <number>10</number>
@@ -55,7 +55,7 @@
      <item row="1" column="1">
       <layout class="QHBoxLayout" name="horizontalLayout_13">
        <property name="spacing">
-        <number>16</number>
+        <number>10</number>
        </property>
        <item>
         <widget class="QLineEdit" name="lineEdit_9">
@@ -130,7 +130,7 @@
      <item row="0" column="1">
       <layout class="QHBoxLayout" name="horizontalLayout_14">
        <property name="spacing">
-        <number>16</number>
+        <number>10</number>
        </property>
        <item>
         <widget class="QLineEdit" name="lineEdit_10">
@@ -177,7 +177,7 @@
      <item row="2" column="1">
       <layout class="QHBoxLayout" name="horizontalLayout_12">
        <property name="spacing">
-        <number>16</number>
+        <number>10</number>
        </property>
        <item>
         <widget class="QLineEdit" name="lineEdit_8">
@@ -225,8 +225,14 @@
       <widget class="QComboBox" name="comboBox">
        <property name="minimumSize">
         <size>
-         <width>0</width>
+         <width>271</width>
          <height>35</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>271</width>
+         <height>16777215</height>
         </size>
        </property>
        <item>

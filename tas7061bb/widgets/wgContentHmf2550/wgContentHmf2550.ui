@@ -14,9 +14,7 @@
    <string>Form</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">QComboBox {
-       qproperty-alignment: 'AlignCenter';
-}</string>
+   <string notr="true"/>
   </property>
   <layout class="QHBoxLayout" name="horizontalLayout_4">
    <property name="leftMargin">
@@ -132,13 +130,13 @@
            </property>
            <property name="minimumSize">
             <size>
-             <width>276</width>
+             <width>271</width>
              <height>35</height>
             </size>
            </property>
            <property name="maximumSize">
             <size>
-             <width>276</width>
+             <width>271</width>
              <height>16777215</height>
             </size>
            </property>
@@ -194,7 +192,7 @@
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout">
             <property name="leftMargin">
-             <number>14</number>
+             <number>20</number>
             </property>
             <item>
              <widget class="QPushButton" name="pushButton_8">
@@ -237,7 +235,7 @@
        <item>
         <layout class="QHBoxLayout" name="horizontalLayout_5">
          <property name="spacing">
-          <number>0</number>
+          <number>6</number>
          </property>
          <item>
           <widget class="QPushButton" name="btnSignalOut">
@@ -337,10 +335,10 @@
           <item>
            <layout class="QGridLayout" name="gridLayout">
             <property name="leftMargin">
-             <number>14</number>
+             <number>20</number>
             </property>
             <property name="horizontalSpacing">
-             <number>226</number>
+             <number>224</number>
             </property>
             <property name="verticalSpacing">
              <number>10</number>
@@ -386,8 +384,14 @@
              <widget class="QComboBox" name="comboBox_2">
               <property name="minimumSize">
                <size>
-                <width>273</width>
+                <width>271</width>
                 <height>35</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>271</width>
+                <height>16777215</height>
                </size>
               </property>
               <item>
@@ -471,7 +475,7 @@
        <item>
         <layout class="QHBoxLayout" name="horizontalLayout_11">
          <property name="spacing">
-          <number>0</number>
+          <number>6</number>
          </property>
          <item>
           <widget class="QPushButton" name="btnTrigger">
@@ -568,10 +572,10 @@
           <item>
            <layout class="QGridLayout" name="gridLayout_2">
             <property name="leftMargin">
-             <number>14</number>
+             <number>20</number>
             </property>
             <property name="horizontalSpacing">
-             <number>252</number>
+             <number>249</number>
             </property>
             <property name="verticalSpacing">
              <number>10</number>
@@ -610,13 +614,13 @@
              <widget class="QComboBox" name="comboBox_3">
               <property name="minimumSize">
                <size>
-                <width>273</width>
+                <width>271</width>
                 <height>35</height>
                </size>
               </property>
               <property name="maximumSize">
                <size>
-                <width>273</width>
+                <width>271</width>
                 <height>16777215</height>
                </size>
               </property>
@@ -674,13 +678,13 @@
              <widget class="QComboBox" name="comboBox_4">
               <property name="minimumSize">
                <size>
-                <width>273</width>
+                <width>271</width>
                 <height>35</height>
                </size>
               </property>
               <property name="maximumSize">
                <size>
-                <width>273</width>
+                <width>271</width>
                 <height>16777215</height>
                </size>
               </property>
@@ -710,13 +714,13 @@
              <widget class="QComboBox" name="comboBox_5">
               <property name="minimumSize">
                <size>
-                <width>273</width>
+                <width>271</width>
                 <height>35</height>
                </size>
               </property>
               <property name="maximumSize">
                <size>
-                <width>273</width>
+                <width>271</width>
                 <height>16777215</height>
                </size>
               </property>

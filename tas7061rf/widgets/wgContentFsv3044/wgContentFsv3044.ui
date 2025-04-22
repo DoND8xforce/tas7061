@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>696</width>
-    <height>713</height>
+    <height>714</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -25,7 +25,7 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_4">
        <property name="spacing">
-        <number>0</number>
+        <number>6</number>
        </property>
        <item>
         <widget class="QPushButton" name="btnFreqSpan">
@@ -121,8 +121,11 @@
        <layout class="QVBoxLayout" name="verticalLayout">
         <item>
          <layout class="QGridLayout" name="gridLayout">
+          <property name="leftMargin">
+           <number>20</number>
+          </property>
           <property name="horizontalSpacing">
-           <number>250</number>
+           <number>230</number>
           </property>
           <property name="verticalSpacing">
            <number>10</number>
@@ -161,6 +164,12 @@
                <size>
                 <width>70</width>
                 <height>35</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>70</width>
+                <height>16777215</height>
                </size>
               </property>
               <property name="cursor">
@@ -211,6 +220,12 @@
                 <height>35</height>
                </size>
               </property>
+              <property name="maximumSize">
+               <size>
+                <width>70</width>
+                <height>16777215</height>
+               </size>
+              </property>
               <property name="cursor">
                <cursorShape>PointingHandCursor</cursorShape>
               </property>
@@ -227,6 +242,9 @@
         </item>
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout">
+          <property name="leftMargin">
+           <number>20</number>
+          </property>
           <item>
            <widget class="QPushButton" name="pushButton_8">
             <property name="minimumSize">
@@ -264,7 +282,7 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_2">
        <property name="spacing">
-        <number>0</number>
+        <number>6</number>
        </property>
        <item>
         <widget class="QPushButton" name="btnRefLevel">
@@ -361,7 +379,10 @@
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_10">
           <property name="spacing">
-           <number>272</number>
+           <number>254</number>
+          </property>
+          <property name="leftMargin">
+           <number>20</number>
           </property>
           <item>
            <widget class="QLabel" name="label">
@@ -422,6 +443,9 @@
         </item>
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <property name="leftMargin">
+           <number>20</number>
+          </property>
           <item>
            <widget class="QPushButton" name="btnAdv">
             <property name="minimumSize">
@@ -501,7 +525,10 @@
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_5">
              <property name="spacing">
-              <number>240</number>
+              <number>220</number>
+             </property>
+             <property name="leftMargin">
+              <number>20</number>
              </property>
              <item>
               <widget class="QLabel" name="label_5">
@@ -569,47 +596,50 @@
              </item>
             </layout>
            </item>
-           <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_7">
-             <item>
-              <widget class="QPushButton" name="pushButton_5">
-               <property name="minimumSize">
-                <size>
-                 <width>115</width>
-                 <height>30</height>
-                </size>
-               </property>
-               <property name="cursor">
-                <cursorShape>PointingHandCursor</cursorShape>
-               </property>
-               <property name="text">
-                <string>Config</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <spacer name="horizontalSpacer_5">
-               <property name="minimumSize">
-                <size>
-                 <width>115</width>
-                 <height>30</height>
-                </size>
-               </property>
-               <property name="orientation">
-                <enum>Qt::Orientation::Horizontal</enum>
-               </property>
-               <property name="sizeHint" stdset="0">
-                <size>
-                 <width>112</width>
-                 <height>27</height>
-                </size>
-               </property>
-              </spacer>
-             </item>
-            </layout>
-           </item>
           </layout>
          </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_7">
+          <property name="leftMargin">
+           <number>20</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="pushButton_5">
+            <property name="minimumSize">
+             <size>
+              <width>115</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="text">
+             <string>Config</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_5">
+            <property name="minimumSize">
+             <size>
+              <width>115</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Orientation::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>112</width>
+              <height>27</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
         </item>
        </layout>
       </widget>
@@ -617,7 +647,7 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_14">
        <property name="spacing">
-        <number>0</number>
+        <number>6</number>
        </property>
        <item>
         <widget class="QPushButton" name="btnTrigger">
@@ -713,8 +743,11 @@
        <layout class="QVBoxLayout" name="verticalLayout_3">
         <item>
          <layout class="QGridLayout" name="gridLayout_3">
+          <property name="leftMargin">
+           <number>20</number>
+          </property>
           <property name="horizontalSpacing">
-           <number>236</number>
+           <number>216</number>
           </property>
           <property name="verticalSpacing">
            <number>10</number>
@@ -852,6 +885,9 @@
         </item>
         <item>
          <layout class="QGridLayout" name="gridLayout_4">
+          <property name="leftMargin">
+           <number>20</number>
+          </property>
           <property name="verticalSpacing">
            <number>10</number>
           </property>

@@ -25,7 +25,7 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_4">
        <property name="spacing">
-        <number>0</number>
+        <number>6</number>
        </property>
        <item>
         <widget class="QPushButton" name="btnFreqSpan">
@@ -122,10 +122,10 @@
         <item>
          <layout class="QGridLayout" name="gridLayout">
           <property name="leftMargin">
-           <number>10</number>
+           <number>20</number>
           </property>
           <property name="horizontalSpacing">
-           <number>240</number>
+           <number>232</number>
           </property>
           <property name="verticalSpacing">
            <number>10</number>
@@ -164,6 +164,12 @@
                <size>
                 <width>70</width>
                 <height>35</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>70</width>
+                <height>16777215</height>
                </size>
               </property>
               <property name="cursor">
@@ -214,6 +220,12 @@
                 <height>35</height>
                </size>
               </property>
+              <property name="maximumSize">
+               <size>
+                <width>70</width>
+                <height>16777215</height>
+               </size>
+              </property>
               <property name="cursor">
                <cursorShape>PointingHandCursor</cursorShape>
               </property>
@@ -231,7 +243,7 @@
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout">
           <property name="leftMargin">
-           <number>10</number>
+           <number>20</number>
           </property>
           <item>
            <widget class="QPushButton" name="pushButton_8">
@@ -270,7 +282,7 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_2">
        <property name="spacing">
-        <number>0</number>
+        <number>6</number>
        </property>
        <item>
         <widget class="QPushButton" name="btnRefLevel">
@@ -367,10 +379,10 @@
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_10">
           <property name="spacing">
-           <number>262</number>
+           <number>252</number>
           </property>
           <property name="leftMargin">
-           <number>10</number>
+           <number>20</number>
           </property>
           <item>
            <widget class="QLabel" name="label">
@@ -394,13 +406,13 @@
              <widget class="QLineEdit" name="lineEdit_2">
               <property name="minimumSize">
                <size>
-                <width>0</width>
+                <width>191</width>
                 <height>35</height>
                </size>
               </property>
               <property name="maximumSize">
                <size>
-                <width>189</width>
+                <width>191</width>
                 <height>16777215</height>
                </size>
               </property>
@@ -432,7 +444,7 @@
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_3">
           <property name="leftMargin">
-           <number>10</number>
+           <number>20</number>
           </property>
           <item>
            <widget class="QPushButton" name="btnAdv">
@@ -513,10 +525,10 @@
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_5">
              <property name="spacing">
-              <number>230</number>
+              <number>216</number>
              </property>
              <property name="leftMargin">
-              <number>10</number>
+              <number>20</number>
              </property>
              <item>
               <widget class="QLabel" name="label_5">
@@ -549,13 +561,13 @@
                 <widget class="QLineEdit" name="lineEdit_5">
                  <property name="minimumSize">
                   <size>
-                   <width>0</width>
+                   <width>191</width>
                    <height>35</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>189</width>
+                   <width>191</width>
                    <height>16777215</height>
                   </size>
                  </property>
@@ -590,7 +602,7 @@
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_7">
           <property name="leftMargin">
-           <number>10</number>
+           <number>20</number>
           </property>
           <item>
            <widget class="QPushButton" name="pushButton_5">
@@ -635,7 +647,7 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_14">
        <property name="spacing">
-        <number>0</number>
+        <number>6</number>
        </property>
        <item>
         <widget class="QPushButton" name="btnTrigger">
@@ -732,10 +744,10 @@
         <item>
          <layout class="QGridLayout" name="gridLayout_3">
           <property name="leftMargin">
-           <number>16</number>
+           <number>20</number>
           </property>
           <property name="horizontalSpacing">
-           <number>220</number>
+           <number>214</number>
           </property>
           <property name="verticalSpacing">
            <number>10</number>
@@ -744,13 +756,13 @@
            <widget class="QComboBox" name="comboBox_13">
             <property name="minimumSize">
              <size>
-              <width>269</width>
+              <width>271</width>
               <height>35</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
-              <width>269</width>
+              <width>271</width>
               <height>16777215</height>
              </size>
             </property>
@@ -768,13 +780,13 @@
            <widget class="QComboBox" name="comboBox_12">
             <property name="minimumSize">
              <size>
-              <width>269</width>
+              <width>271</width>
               <height>35</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
-              <width>269</width>
+              <width>271</width>
               <height>16777215</height>
              </size>
             </property>
@@ -830,13 +842,13 @@
            <widget class="QComboBox" name="comboBox_14">
             <property name="minimumSize">
              <size>
-              <width>269</width>
+              <width>271</width>
               <height>35</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
-              <width>269</width>
+              <width>271</width>
               <height>16777215</height>
              </size>
             </property>
@@ -874,7 +886,7 @@
         <item>
          <layout class="QGridLayout" name="gridLayout_4">
           <property name="leftMargin">
-           <number>16</number>
+           <number>20</number>
           </property>
           <property name="verticalSpacing">
            <number>10</number>

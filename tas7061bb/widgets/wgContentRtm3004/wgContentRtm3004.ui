@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>721</width>
-    <height>617</height>
+    <width>697</width>
+    <height>618</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -159,8 +159,11 @@
            <layout class="QVBoxLayout" name="verticalLayout_2">
             <item>
              <layout class="QGridLayout" name="gridLayout_2">
+              <property name="leftMargin">
+               <number>20</number>
+              </property>
               <property name="horizontalSpacing">
-               <number>232</number>
+               <number>212</number>
               </property>
               <property name="verticalSpacing">
                <number>10</number>
@@ -231,6 +234,9 @@
             </item>
             <item>
              <layout class="QHBoxLayout" name="horizontalLayout">
+              <property name="leftMargin">
+               <number>20</number>
+              </property>
               <item>
                <widget class="QPushButton" name="btnLevel">
                 <property name="minimumSize">
@@ -302,7 +308,7 @@
              <widget class="QWidget" name="wglevel" native="true">
               <layout class="QGridLayout" name="gridLayout">
                <property name="leftMargin">
-                <number>25</number>
+                <number>45</number>
                </property>
                <property name="topMargin">
                 <number>0</number>
@@ -314,7 +320,7 @@
                 <number>0</number>
                </property>
                <property name="horizontalSpacing">
-                <number>268</number>
+                <number>248</number>
                </property>
                <property name="verticalSpacing">
                 <number>10</number>
@@ -366,8 +372,14 @@
                   <widget class="QLineEdit" name="lineEdit">
                    <property name="minimumSize">
                     <size>
-                     <width>0</width>
+                     <width>175</width>
                      <height>35</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>175</width>
+                     <height>16777215</height>
                     </size>
                    </property>
                   </widget>
@@ -535,8 +547,11 @@
          <layout class="QVBoxLayout" name="verticalLayout_3">
           <item>
            <layout class="QGridLayout" name="gridLayout_3">
+            <property name="leftMargin">
+             <number>20</number>
+            </property>
             <property name="horizontalSpacing">
-             <number>258</number>
+             <number>238</number>
             </property>
             <property name="verticalSpacing">
              <number>10</number>
@@ -557,8 +572,14 @@
                <widget class="QLineEdit" name="lineEdit_3">
                 <property name="minimumSize">
                  <size>
-                  <width>0</width>
+                  <width>175</width>
                   <height>35</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>175</width>
+                  <height>16777215</height>
                  </size>
                 </property>
                </widget>
@@ -627,8 +648,14 @@
                <widget class="QLineEdit" name="lineEdit_4">
                 <property name="minimumSize">
                  <size>
-                  <width>0</width>
+                  <width>175</width>
                   <height>35</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>175</width>
+                  <height>16777215</height>
                  </size>
                 </property>
                </widget>
@@ -657,6 +684,9 @@
           </item>
           <item>
            <layout class="QGridLayout" name="gridLayout_4">
+            <property name="leftMargin">
+             <number>20</number>
+            </property>
             <property name="verticalSpacing">
              <number>10</number>
             </property>

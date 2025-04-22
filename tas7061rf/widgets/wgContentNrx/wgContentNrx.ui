@@ -25,7 +25,7 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_14">
        <property name="spacing">
-        <number>0</number>
+        <number>6</number>
        </property>
        <item>
         <widget class="QPushButton" name="btnTrigger">
@@ -121,8 +121,11 @@
        <layout class="QVBoxLayout" name="verticalLayout_3">
         <item>
          <layout class="QGridLayout" name="gridLayout_3">
+          <property name="leftMargin">
+           <number>20</number>
+          </property>
           <property name="horizontalSpacing">
-           <number>236</number>
+           <number>216</number>
           </property>
           <property name="verticalSpacing">
            <number>10</number>
@@ -278,6 +281,9 @@
         </item>
         <item>
          <layout class="QGridLayout" name="gridLayout_4">
+          <property name="leftMargin">
+           <number>20</number>
+          </property>
           <property name="verticalSpacing">
            <number>10</number>
           </property>

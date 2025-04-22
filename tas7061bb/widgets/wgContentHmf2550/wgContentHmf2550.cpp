@@ -20,12 +20,6 @@ wgContentHmf2550::~wgContentHmf2550()
 
 void wgContentHmf2550::initialize()
 {
-    // mLayout = new QVBoxLayout();
-    // mLayout->setSpacing(0);
-    // mLayout->setContentsMargins(0, 0, 0, 0);
-    // ui->wgWaveType->setLayout(mLayout);
-    // mLayout->
-
     for(int i = 0; i < ui->cbbWaveType->count(); i++) {
         switch (i) {
         case 0:
